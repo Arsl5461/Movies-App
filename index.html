@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <section class="bg">
+      <header>
+        <nav class="active" id="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <button class="icon" id="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+          </button>
+        </nav>
+        <img
+          src="https://logos-download.com/wp-content/uploads/2016/03/Netflix_Logo_2014-700x188.png"
+          alt="Logo"
+          class="logo"
+        />
+        <div id="form" class="search1">
+          <input
+            type="text"
+            id="search"
+            class="search input1"
+            placeholder="Search"
+          />
+          <button class="btn btn1">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </header>
+      <main class="box" id="main"></main>
+
+      <!-- testinomial  -->
+      <div class="testinomial">
+        <div class="t_heading">Reviews</div>
+
+        <div class="testimonial-container box">
+          <div class="progress-bar"></div>
+          <div class="fas fa-quote-right fa-quote"></div>
+          <div class="fas fa-quote-left fa-quote"></div>
+          <p class="testimonial">
+            o begins a no-good-deed-goes-unpunished saga whose novelty derives
+            from the viewers uncertainty as to how good the done deed was in the
+            first place. The opportunistic warden of Rahims prison learns of his
+            actions and contacts the media, peddling a human interest story.
+          </p>
+          <div class="user">
+            <img
+              src="https://randomuser.me/api/portraits/women/46.jpg"
+              alt="user"
+              class="user-image"
+            />
+            <div class="user-details">
+              <h4 class="username">Miyah Myles</h4>
+              <p class="role">Marketing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- expending  -->
+      <div class="expending_cards box">
+        <div class="panel panel1">
+          <h3>I am Groot</h3>
+        </div>
+        <div class="panel panel2">
+          <h3>I am King</h3>
+        </div>
+        <div class="panel panel3 active">
+          <h3>I am Super Hero</h3>
+        </div>
+        <div class="panel panel4">
+          <h3>I am Gaming Zone</h3>
+        </div>
+        <div class="panel panel5">
+          <h3>It`s Joker</h3>
+        </div>
+      </div>
+
+      <!-- footer  -->
+      <div class="footer_content">
+        <div class="footer_box">
+          <div class="footer_media media1">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="footer_media media2">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="footer_media media3">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="footer_media media4">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="footer_media media5">
+            <i class="fa-brands fa-google"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="loading-text">0%</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
